@@ -149,13 +149,7 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .blob { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; }
 .blob--blue { width: 560px; height: 560px; top: -220px; left: -180px; background: rgba(10, 47, 192, 0.16); }
 .blob--pink { width: 480px; height: 480px; top: -140px; right: -140px; background: rgba(247, 84, 162, 0.2); }
-.grid-fade {
-  position: absolute; inset: 0; pointer-events: none;
-  background-image: radial-gradient(rgba(10, 47, 192, 0.2) 1px, transparent 1.3px);
-  background-size: 28px 28px;
-  -webkit-mask-image: radial-gradient(ellipse 70% 65% at 50% 35%, #000 0%, transparent 75%);
-  mask-image: radial-gradient(ellipse 70% 65% at 50% 35%, #000 0%, transparent 75%);
-}
+.grid-fade { display: none; }
 
 /* ───────── 6. LOGO ───────── */
 .logo-link { display: inline-flex; align-items: center; }

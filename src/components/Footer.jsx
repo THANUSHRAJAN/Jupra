@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Linkedin, Instagram, Youtube, Mail, ArrowUpRight } from 'lucide-react';
+import { Linkedin, Instagram, Mail, ArrowUpRight } from 'lucide-react';
 import Logo from './Logo';
 import SocialLink from './SocialLink';
 import { site, mailtoHref } from '../config/site';
@@ -48,7 +48,6 @@ export default function Footer() {
             <div className="footer__social">
               <SocialLink url={site.social.linkedin} label="LinkedIn" icon={Linkedin} showLabel />
               <SocialLink url={site.social.instagram} label="Instagram" icon={Instagram} showLabel />
-              <SocialLink url={site.social.youtube} label="YouTube" icon={Youtube} showLabel />
               <a className="social" href={mailtoHref()} aria-label="Email JUPRA">
                 <Mail size={18} />
                 <span>Email</span>

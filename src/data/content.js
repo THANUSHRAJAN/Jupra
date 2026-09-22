@@ -69,7 +69,7 @@ export const products = [
     id: 'product-01',
     name: 'Product 01',
     status: 'Coming Soon',
-    icon: Cpu,
+    icon: Rocket,
     image: '',
     description: 'An intelligent technology solution designed to solve a real-world problem.',
     benefits: [

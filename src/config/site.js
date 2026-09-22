@@ -45,10 +45,10 @@ export const site = {
 
   /* ─────────────  FOUNDER  (replace when ready)  ───────────── */
   founder: {
-    name: 'Founder Name',
+    name: 'Joseph M and Philomina S',
     title: 'Founder & CEO',
-    photo: '', // e.g. import a photo into src/assets and set the path, or use a URL
-    linkedin: '',
+    photo: '/founder.jpg',
+    linkedin: 'https://www.linkedin.com/in/joseph-jo-aa40a7257?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
     bio: [
       'A technologist and builder who believes the best technology begins with a real problem, not a feature list. JUPRA was founded to bring AI, IoT and intelligent hardware out of the lab and into everyday life.',
       'Leading a team of engineers and designers, the focus is simple: understand the problem deeply, build practical solutions, and keep improving until they truly work for the people who use them.',
